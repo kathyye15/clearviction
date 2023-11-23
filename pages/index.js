@@ -30,7 +30,7 @@ export default function Page() {
   }
 
   return (
-    <form id="submissionForm" class="form" onSubmit={onSubmit}>
+    <form id="submissionForm" className="form" onSubmit={onSubmit}>
       <label>Email:</label>
       <br />
       <input
@@ -51,7 +51,7 @@ export default function Page() {
         required
       />
       <br />
-      <button type="submit" class="submitButton">
+      <button type="submit" className="submitButton">
         Submit
       </button>
     </form>

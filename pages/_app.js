@@ -2,7 +2,7 @@ import "../styles/globals.css";
 
 export default function App({ Component, pageProps }) {
   return (
-    <div class="container">
+    <div className="container">
       <Component {...pageProps} />
     </div>
   );
